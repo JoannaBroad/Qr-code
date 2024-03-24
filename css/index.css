@@ -1,8 +1,36 @@
-.attribution {
+body, html {
+  background-color: #d6e2f0;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+}
+
+.card {
+  background-color: #fff;
+  width: 320px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.card img {
+  width: 288px;
+  margin: 16px;
+}
+
+footer {
+  margin-top: 20px;
   font-size: 11px;
   text-align: right;
 }
-.attribution a {
+footer a {
   color: #1f3251;
   text-decoration: none;
 }

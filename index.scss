@@ -1,10 +1,35 @@
 // colours
-$prime: #ffffff;
+$prime: #fff;
 $second: #d6e2f0;
 $third: #7b879d;
 $forth: #1f3251;
 
-.attribution { 
+body, html{
+    background-color: $second;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: relative;
+}
+.card{
+    background-color: $prime;
+    width: 320px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    img{
+        width: 288px;
+        margin: 16px;
+    }
+}
+footer {
+    margin-top: 20px; 
     font-size: 11px; 
     text-align: right;
     a { 
