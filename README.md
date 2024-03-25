@@ -11,7 +11,5 @@ Welcome to my Frontend Mentor QR code solution! This challenge allowed me to sol
 ## links
 [See the page here!!](https://joannabroad.github.io/Qr-code/)
 
-## my process
-
 ## author
 [to see more me](https://github.com/JoannaBroad)
