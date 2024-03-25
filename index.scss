@@ -7,11 +7,12 @@ $forth: #1f3251;
 //text
 .card{
     h3{
-        font-family: .AppleSystemUIFont;
-        font-size: 22px;
-        color: #1F314F;
+        font-family: "Outfit", sans-serif;
+        font-size: 20px;
+        color: $forth;
         letter-spacing: 0;
         text-align: center;
+        font-weight: 700;
     }
 }
 
