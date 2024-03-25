@@ -1,10 +1,19 @@
+.card {
+  text-align: center;
+}
 .card h3 {
   font-family: "Outfit", sans-serif;
   font-size: 20px;
   color: #1f3251;
   letter-spacing: 0;
-  text-align: center;
   font-weight: 700;
+}
+.card p {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  color: #7b879d;
+  letter-spacing: 0.19px;
+  font-weight: 400;
 }
 
 body, html {
