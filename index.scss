@@ -9,10 +9,11 @@ $forth: #1f3251;
     text-align: center;
     h3{
         font-family: "Outfit", sans-serif;
-        font-size: 20px;
+        font-size: 22px;
         color: $forth;
         letter-spacing: 0;
         font-weight: 700;
+        margin: 0 8%;
     }
     p{
         font-family: "Outfit", sans-serif;
@@ -20,6 +21,7 @@ $forth: #1f3251;
         color: $third;
         letter-spacing: 0.19px;
         font-weight: 400;
+        margin: 8%;
     }
 }
 
