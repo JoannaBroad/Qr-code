@@ -8,7 +8,13 @@ body, html {
 }
 
 .container {
-  position: relative;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-height: 100vh;
+  padding: 32px;
 }
 
 .card {
@@ -19,16 +25,24 @@ body, html {
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
+  border-radius: 20px;
 }
 .card img {
   width: 288px;
   margin: 16px;
+  border-radius: 10px;
 }
 
 footer {
-  margin-top: 20px;
+  margin-top: auto;
   font-size: 11px;
   text-align: right;
+  margin-bottom: 1%;
+}
+footer .attribution {
+  position: absolute;
+  bottom: 1%;
+  right: 1%;
 }
 footer a {
   color: #1f3251;
