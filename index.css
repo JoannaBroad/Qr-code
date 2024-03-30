@@ -12,13 +12,14 @@
 .card p {
   font-family: "Outfit", sans-serif;
   font-size: 15px;
-  color: #7b879d;
+  color: #1f3251;
   letter-spacing: 0.19px;
   font-weight: 400;
   margin: 4.5% 8% 10%;
 }
 
-body, html {
+body,
+html {
   background-color: #d6e2f0;
   height: 100%;
   margin: 0;
@@ -66,4 +67,4 @@ footer .attribution {
 footer a {
   color: #1f3251;
   text-decoration: none;
-}
+}/*# sourceMappingURL=index.css.map */

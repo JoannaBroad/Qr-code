@@ -5,27 +5,30 @@ $third: #7b879d;
 $forth: #1f3251;
 
 //text
-.card{
+.card {
     text-align: center;
-    h3{
+
+    h1 {
         font-family: "Outfit", sans-serif;
-        font-size: 22px;
+        font-size: 1.3rem;
         color: $forth;
         letter-spacing: 0;
         font-weight: 700;
         margin: 0 8%;
     }
-    p{
+
+    p {
         font-family: "Outfit", sans-serif;
         font-size: 15px;
-        color: $third;
+        color: $forth;
         letter-spacing: 0.19px;
         font-weight: 400;
         margin: 4.5% 8% 10%;
     }
 }
 
-body, html{
+body,
+html {
     background-color: $second;
     height: 100%;
     margin: 0;
@@ -33,16 +36,18 @@ body, html{
     justify-content: center;
     align-items: center;
 }
-.container{
+
+.container {
     flex: 1;
     display: flex;
-    align-items: center;  
-    justify-content: center;  
-    height: 100%;  
+    align-items: center;
+    justify-content: center;
+    height: 100%;
     min-height: 100vh;
     padding: 32px;
 }
-.card{
+
+.card {
     background-color: $prime;
     width: 320px;
     position: absolute;
@@ -50,23 +55,28 @@ body, html{
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 20px;
-    img{
+
+    img {
         width: 288px;
         margin: 16px;
         border-radius: 10px;
     }
 }
+
 footer {
-    margin-top: auto; 
-    font-size: 11px; 
+    margin-top: auto;
+    font-size: 11px;
     text-align: right;
     margin-bottom: 1%;
+
     .attribution {
         position: absolute;
         bottom: 1%;
         right: 1%;
     }
-    a { 
+
+    a {
         color: $forth;
         text-decoration: none;
-     } }
+    }
+}
